@@ -30,7 +30,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"github.com/samber/lo"
 
-	"github.com/bwagner5/aws-sdk-go-metrics/pkg/awsmetrics"
+	"github.com/njtran/aws-sdk-go-metrics/pkg/awsmetrics"
 )
 
 type Options struct {

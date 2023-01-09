@@ -1,4 +1,4 @@
-module github.com/bwagner5/aws-sdk-go-metrics
+module github.com/njtran/aws-sdk-go-metrics
 
 go 1.19
 

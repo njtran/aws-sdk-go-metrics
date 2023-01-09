@@ -24,7 +24,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"golang.org/x/net/http2"
 
-	"github.com/bwagner5/aws-sdk-go-metrics/pkg/commons"
+	"github.com/njtran/aws-sdk-go-metrics/pkg/commons"
 )
 
 // WithInstrumentedClient returns a LoadOptionsFunc for use with aws-sdk-go-v2 config

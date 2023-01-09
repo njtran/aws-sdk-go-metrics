@@ -23,7 +23,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"golang.org/x/net/http2"
 
-	"github.com/bwagner5/aws-sdk-go-metrics/pkg/commons"
+	"github.com/njtran/aws-sdk-go-metrics/pkg/commons"
 )
 
 // MustInstrument takes an aws-sdk-go (v1) session and instruments the underlying HTTPClient to emit prometheus metrics on SDK calls
